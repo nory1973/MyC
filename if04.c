@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+        int var;
+        printf("0Ç©1ÇÃílÇì¸óÕÇµÇƒÇ≠ÇæÇ≥Ç¢>");
+        scanf("%d" , &var);
+        printf("%s" , var ? "ê^Ç≈Ç∑" : "ãUÇ≈Ç∑");
+
+        return 0;
+}
